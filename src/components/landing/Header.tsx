@@ -23,7 +23,7 @@ const Header = () => {
             </div>
             <div>
               <span className={`font-heading font-bold text-xl md:text-2xl block leading-none tracking-tight ${isScrolled ? "text-indigo-950" : "text-white"}`}>
-                Gulf Breeze FL
+                Brevard NC
               </span>
               <span className={`text-sm font-bold uppercase tracking-[0.2em] ${isScrolled ? "text-indigo-600" : "text-indigo-400"}`}>
                 Black Mold <span className="text-[10px] opacity-70 px-1 text-nowrap">Cleanup Pros</span>
@@ -37,7 +37,7 @@ const Header = () => {
                 {link.replace("-", " ")}
               </a>
             ))}
-            <a href="/lease" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
+            <a href="/lease-my-number" className={`text-sm font-bold uppercase tracking-widest transition-all hover:scale-105 ${isScrolled ? "text-slate-600 hover:text-indigo-600" : "text-white/90 hover:text-white"}`}>
               Lease
             </a>
           </nav>
@@ -64,7 +64,7 @@ const Header = () => {
             {["Services", "Why Us", "FAQ", "Contact"].map((item) => (
               <a key={item} href={`#${item.toLowerCase().replace(" ", "-")}`} className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>{item}</a>
             ))}
-            <a href="/lease" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
+            <a href="/lease-my-number" className="text-lg font-bold tracking-wide hover:text-indigo-400 transition-colors py-2 border-b border-slate-800" onClick={() => setIsMobileMenuOpen(false)}>Lease</a>
             <div className="pt-6">
               <p className="text-slate-400 text-sm mb-2 uppercase tracking-widest font-bold">24/7 CLEANUP HOTLINE</p>
               <a href="tel:3802660944" className="text-3xl font-bold text-indigo-400 block mb-6">3802660944</a>

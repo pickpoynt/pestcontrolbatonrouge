@@ -12,12 +12,12 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Toxic Black Mold Cleanup Gulf Breeze",
-  subtitle = "Gulf Breeze's premier specialists in toxic black mold cleanup. We provide advanced mold removal techniques that restore air quality and protect your property from dangerous mold growth. Safe, certified, and fully guaranteed.",
+  title = "Toxic Black Mold Cleanup Brevard NC",
+  subtitle = "Brevard's premier specialists in toxic black mold cleanup. We provide advanced mold removal techniques that restore air quality and protect your property from dangerous mold growth in the heart of Transylvania County.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
   phone = "3802660944",
-  badge = "GULF BREEZE BLACK MOLD PROS",
+  badge = "BREVARD BLACK MOLD PROS",
   features = [
     { icon: Microscope, text: "Toxicity Testing" },
     { icon: Wind, text: "HEPA Filtration" },

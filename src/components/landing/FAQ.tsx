@@ -3,72 +3,76 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How much does it cost to clean up black mold?",
-    answer: "Cleaning up toxic black mold typically costs between $1,500 and $5,000, depending on the severity of the infestation, the structural damage involved, and the required containment measures in your Gulf Breeze home."
+    question: "How much does it cost to have someone get rid of black mold?",
+    answer: "Professional toxic black mold cleanup in Brevard typically ranges from $1,500 to $5,000+. The cost is influenced by the extent of the infestation, the structural materials involved, and the complexity of the containment needed to protect your home."
+  },
+  {
+    question: "How much does it cost to fix black mold?",
+    answer: "Fixing black mold involves both removal and material replacement. In Brevard NC, homeowners should budget for professional remediation plus the cost of rebuilding affected areas like drywall, insulation, or flooring."
   },
   {
     question: "What kills 100% of black mold?",
-    answer: "Only physical removal and replacement of porous materials, coupled with EPA-registered anti-microbial treatments and total moisture elimination, can permanently stop 100% of toxic black mold."
+    answer: "Only physical removal and replacement of contaminated materials, combined with industrial-grade antimicrobial treatments and total moisture elimination, can guarantee 100% eradication of toxic black mold."
   },
   {
     question: "Does black mold need to be professionally cleaned?",
-    answer: "Yes. Because toxic black mold produces dangerous mycotoxins, disturbing it without proper hazmat gear and negative air pressure containment is extremely hazardous to your health."
+    answer: "Absolutely. Toxic black mold (Stachybotrys) releases mycotoxins that are hazardous to inhale. Professionals use hazmat gear and negative air pressure to prevent these spores from spreading during the cleaning process."
   },
   {
-    question: "How to get rid of black mold toxicity?",
-    answer: "The mold must be safely removed from the building, affected air must be scrubbed using HEPA 13 filtration, and the moisture source must be completely resolved. Exposed individuals should also consult a healthcare professional."
-  },
-  {
-    question: "How long after cleaning black mold is it safe?",
-    answer: "Once professional toxic mold removal, HEPA air scrubbing, and post-clearance air quality testing confirm safe spore levels, it is immediately safe to reoccupy the space."
+    question: "Can you live in a house with black mold in the basement?",
+    answer: "It is not recommended. Even if the mold is in the basement, HVAC systems and the 'stack effect' can distribute toxic spores and mycotoxins throughout the entire Brevard home, posing a risk to all occupants."
   },
   {
     question: "Is professional mold removal worth it?",
-    answer: "Absolutely. Professional removal prevents the toxic spores from spreading to other areas of the house, permanently resolves the issue, and protects your family's health from dangerous toxic exposure."
+    answer: "Yes. Professional remediation ensures the root cause is addressed, prevents cross-contamination, and provides a 'clearance' certificate that protects your family's health and your property's resale value."
   },
   {
-    question: "What are signs of mold exposure?",
-    answer: "Signs of toxic black mold exposure include chronic coughing, respiratory distress, chronic fatigue, severe headaches, skin rashes, memory issues, and sudden upper respiratory tract infections."
+    question: "Can a house with black mold be saved?",
+    answer: "Yes, almost any home in Brevard can be saved with thorough, professional remediation. The key is identifying all hidden colonies and completely resolving the moisture source that fueled the growth."
   },
   {
-    question: "Do air purifiers help with mold?",
-    answer: "Medical-grade air purifiers can help filter floating mold spores out of the indoor air environment, but they cannot kill the actual mold colony actively thriving and growing on surfaces inside your home."
+    question: "Will homeowners insurance pay for black mold?",
+    answer: "Insurance coverage often depends on the source. If the mold resulted from a sudden, accidental water discharge (like a burst pipe), it may be covered. Long-term neglect or humidity issues are typically excluded."
   },
   {
-    question: "Can I live in a house with black mold?",
-    answer: "It is highly discouraged. Long-term exposure to Stachybotrys chartarum (black mold) can result in severe, sometimes irreversible health consequences, especially for children and the elderly."
+    question: "How do professionals get rid of black mold?",
+    answer: "Our Brevard specialists use a 5-step process: Containment with thick poly-sheeting, establishing negative air pressure, HEPA air scrubbing, physical removal of contaminated materials, and surface disinfection."
   },
   {
-    question: "Is bleach or vinegar better at killing black mold?",
-    answer: "Vinegar is scientifically better at penetrating porous surfaces to kill the root of the mold. Bleach simply removes the surface color and adds substantial water to the material, often fueling the mold's deeper roots."
+    question: "What are the 10 warning signs of mold toxicity?",
+    answer: "1. Persistent coughing 2. Chronic fatigue 3. Severe headaches 4. Brain fog/memory loss 5. Skin rashes 6. Shortness of breath 7. Eye irritation 8. Sneezing fits 9. Sinus congestion 10. Sudden mood changes or anxiety."
   },
   {
-    question: "How long can you live in a house with black mold?",
-    answer: "Even short-term exposure can trigger immediate symptoms in sensitive individuals. Prolonged exposure over months or years in Gulf Breeze homes causes progressive, severe systemic toxicity."
+    question: "Will mold go away if it dries out?",
+    answer: "No. Drying out mold makes it go dormant, but the spores and mycotoxins remain active and extremely brittle, making them even easier to inhale. Only physical removal solves the problem."
   },
   {
-    question: "What are the symptoms of black mold in the lungs?",
-    answer: "Symptoms include a persistent dry cough, shortness of breath, heavy wheezing, coughing up blood or black mucus, intense chest tightness, and the rapid development of chronic respiratory conditions."
+    question: "Is it okay to sleep in a house with black mold?",
+    answer: "Sleeping in a home with active toxic mold is dangerous because your respiratory rate changes and you are exposed for 7-9 hours continuously. This can lead to severe nocturnal asthma and systemic inflammation."
   },
   {
-    question: "How to test yourself for mold toxicity?",
-    answer: "You must consult a medical healthcare professional. They may run targeted blood or specialized urine tests (like a mycotoxin test panel) to officially determine the levels of toxicity in your body."
+    question: "Has black mold ever killed anyone?",
+    answer: "Yes, documented cases exist where severe Stachybotrys exposure led to pulmonary hemorrhage in infants and fatal respiratory failure in immunocompromised individuals. It is a serious biological threat."
   },
   {
-    question: "Can I remove black mold myself?",
-    answer: "No. Disturbing toxic black mold releases volatile mycotoxins and millions of spores directly into your air. It requires certified professional hazmat suits, HEPA containment fields, and strictly regulated disposal protocols."
+    question: "What are signs of hidden mold?",
+    answer: "Look for a persistent musty odor, bubbling or peeling paint, warped baseboards, or 'ghost' spots on ceilings. Often, the first sign of hidden mold in Brevard homes is unexplained family illness."
   },
   {
-    question: "What pulls mold out of the air?",
-    answer: "True medical-grade HEPA filtration systems and high-powered industrial commercial \"air scrubbers\" physically pull mold spores and particulate mycotoxins completely out of your indoor air environment."
+    question: "What stops black mold from spreading?",
+    answer: "Isolation and moisture control are key. Professionals use industrial-grade containment hurdles and antimicrobial barriers to 'lock' the mold in place until it can be safely extracted from the building."
   },
   {
-    question: "Which is better for mold dehumidifier or air purifier?",
-    answer: "You need both. A commercial dehumidifier physically prevents mold from growing by aggressively removing moisture from the air, while a HEPA air purifier safely captures loose spores already circulating."
+    question: "What kills mold spores instantly?",
+    answer: "While some high-level biocides can kill spores on contact, removal is the only 'instant' way to make a home safe. Spores (dead or alive) remain toxic until they are physically removed from the environment."
   },
   {
-    question: "Does HEPA 13 remove mold?",
-    answer: "Yes, Medical-grade HEPA 13 filters securely capture 99.95% of airborne particles as tiny as 0.1 microns, which easily and completely captures both mold spores and smaller toxic mold fragments."
+    question: "How do I test myself for mold toxicity?",
+    answer: "You should visit a functional medicine doctor or toxicologist in Brevard for a Mycotoxin Urine Panel or a blood test checking for specific mold antibodies and inflammatory markers like C4a."
+  },
+  {
+    question: "Can air purifiers remove mold spores?",
+    answer: "Yes, but only if they utilize a True HEPA filter (Grade 13 or higher). These filters capture 99.97% of particles as small as 0.3 microns, effectively pulling mold spores out of your Brevard home's air."
   }
 ];
 
@@ -80,10 +84,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Toxic Black Mold Cleanup <span className="text-indigo-600">in Gulf Breeze FAQ</span>
+            Toxic Black Mold Cleanup <span className="text-indigo-600">in Brevard NC FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about professional toxic mold removal, severe mold costs, and critical health concerns in Gulf Breeze, Florida.
+            Common questions about professional toxic mold removal, severe mold costs, and critical health concerns in Brevard, North Carolina.
           </p>
         </div>
 

@@ -7,8 +7,8 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Gulf Breeze Toxic Black Mold Cleanup Pros</title>
-                <meta name="description" content="Replace this toxic black mold cleanup phone number with your own business line in Gulf Breeze, FL for only $19 a month. Contact leasemynumber@gmail.com to get started." />
+                <title>Lease This Phone Number - Brevard Toxic Black Mold Cleanup Pros</title>
+                <meta name="description" content="Replace this toxic black mold cleanup phone number with your own business line in Brevard, NC for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -29,7 +29,7 @@ const LeaseNumber = () => {
                                 Lease This Phone Number
                             </h1>
                             <p className="text-indigo-100 text-xl max-w-2xl mx-auto leading-relaxed font-medium italic text-nowrap">
-                                Run a toxic black mold cleanup business in Gulf Breeze FL? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
+                                Run a toxic black mold cleanup business in Brevard NC? Replace this number <br /> with your own business line and receive all inbound leads — for just <span className="font-bold text-white">$19 a month</span>.
                             </p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const LeaseNumber = () => {
                                 {[
                                     "Your business phone number displayed site-wide",
                                     "All inbound toxic black mold inquiries routed to you",
-                                    "Full local SEO benefit of an optimized Gulf Breeze landing page",
+                                    "Full local SEO benefit of an optimized Brevard landing page",
                                     "Exclusive placement — only one business at a time",
                                     "Month-to-month, no long-term contract",
                                     "Cancel anytime with 30 days notice",
@@ -79,7 +79,7 @@ const LeaseNumber = () => {
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Toxic Black Mold Cleanup Gulf Breeze - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Toxic Black Mold Cleanup Brevard NC - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />

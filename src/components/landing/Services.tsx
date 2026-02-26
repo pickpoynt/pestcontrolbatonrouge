@@ -4,7 +4,7 @@ const servicesList = [
   {
     icon: Home,
     title: "Toxic Mold Removal",
-    description: "Our Gulf Breeze specialists provide strict containment and thorough removal of toxic black mold (Stachybotrys) from your property."
+    description: "Our Brevard specialists provide strict containment and thorough removal of toxic black mold (Stachybotrys) from your property."
   },
   {
     icon: Search,
@@ -14,12 +14,12 @@ const servicesList = [
   {
     icon: Activity,
     title: "HEPA Air Scrubbing",
-    description: "We deploy industrial-grade HEPA 13 air scrubbers to capture toxic spores and purify the air in your Gulf Breeze home."
+    description: "We deploy industrial-grade HEPA 13 air scrubbers to capture toxic spores and purify the air in your Brevard home."
   },
   {
     icon: Zap,
     title: "Emergency Cleanup",
-    description: "Toxic black mold requires immediate attention. We offer rapid response in Gulf Breeze to halt mold progression and begin safe removal."
+    description: "Toxic black mold requires immediate attention. We offer rapid response in Brevard to halt mold progression and begin safe removal."
   },
   {
     icon: Sprout,
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Toxic Black Mold Cleanup Gulf Breeze</span>
+            Expert <span className="text-indigo-600">Toxic Black Mold Cleanup Brevard NC</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Specialized black mold removal and containment solutions designed strictly for toxic infestations. We restore Gulf Breeze properties back to safe living conditions.
+            Specialized black mold removal and containment solutions designed strictly for toxic infestations. We restore Brevard properties back to safe living conditions.
           </p>
         </div>
 

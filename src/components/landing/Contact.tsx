@@ -17,14 +17,14 @@ const Contact = () => {
               <div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
                   <ShieldCheck className="w-4 h-4" />
-                  Gulf Breeze Toxic Mold Safety
+                  Brevard Toxic Mold Safety
                 </div>
                 <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
                   Restore Your Home <br />
-                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">Toxic Black Mold Cleanup Gulf Breeze</span>
+                  <span className="text-indigo-600 border-b-4 border-indigo-600/20">Toxic Black Mold Cleanup Brevard NC</span>
                 </h2>
                 <p className="text-slate-600 text-lg leading-relaxed italic font-medium">
-                  Professional Gulf Breeze toxic black mold remediation specialists ready to safely eradicate hazardous infestations. Urgent response available for toxic mold situations.
+                  Professional Brevard toxic black mold remediation specialists ready to safely eradicate hazardous infestations. Urgent response available for toxic mold situations.
                 </p>
               </div>
 
@@ -40,15 +40,15 @@ const Contact = () => {
                   <div className="w-12 h-12 rounded-2xl bg-indigo-600 flex items-center justify-center mb-4">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">GULF BREEZE EXPERTS</p>
-                  <p className="text-sm font-bold text-slate-900 uppercase">Gulf Breeze, FL 32561</p>
+                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em] mb-1">BREVARD EXPERTS</p>
+                  <p className="text-sm font-bold text-slate-900 uppercase">Brevard, NC 28712</p>
                 </div>
               </div>
 
               <div className="space-y-6 text-nowrap">
                 <div className="flex items-center gap-4 text-slate-600 font-bold uppercase tracking-tight text-xs">
                   <Clock className="w-5 h-5 text-indigo-600" />
-                  <span>Service Area: Gulf Breeze • Pensacola Beach • Navarre • Midway</span>
+                  <span>Service Area: Brevard • Transylvania County • Pisgah Forest • Cedar Mountain</span>
                 </div>
               </div>
 
@@ -81,13 +81,13 @@ const Contact = () => {
 
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest ml-1">Toxicity Issue Details</label>
-                  <Textarea placeholder="Describe the black mold issue, affected areas, or toxicity signs in your Gulf Breeze property..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />
+                  <Textarea placeholder="Describe the black mold issue, affected areas, or toxicity signs in your Brevard property..." className="min-h-[150px] rounded-3xl bg-slate-50 border-slate-100 p-6 font-medium focus:ring-indigo-500" />
                 </div>
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white h-16 rounded-2xl font-bold uppercase tracking-widest text-sm shadow-xl shadow-indigo-900/20 transition-all hover:gap-4">
                   Submit Request <Send className="w-5 h-5" />
                 </Button>
                 <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest pt-4 italic">
-                  Rapid Toxicity Response Guaranteed in Gulf Breeze, FL
+                  Rapid Toxicity Response Guaranteed in Brevard, NC
                 </p>
               </form>
             </div>
